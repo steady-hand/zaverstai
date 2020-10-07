@@ -13,7 +13,6 @@
 <body>
   <header class="header">
     <div class="wrapper">
-
       <div class="header__wrapper">
         <div class="header__logo">
           <img src="./image/annesweet_logo.png" alt="annesweet logo" class="header__logo-pic">
@@ -22,16 +21,16 @@
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item">
-              <a href="#1" class="header__link">Статьи</a>
+              <a href="#first__section" class="header__link">Статьи</a>
             </li>
             <li class="header__item">
-              <a href="#1" class="header__link">Обо мне</a>
+              <a href="#second__section" class="header__link">Обо мне</a>
             </li>
             <li class="header__item">
-              <a href="#1" class="header__link">Портфолио</a>
+              <a href="#third__section" class="header__link">Портфолио</a>
             </li>
             <li class="header__item header__last__item">
-              <a href="#1" class="header__link">Написать мне</a>
+              <a href="#fourth__section" class="header__link">Написать мне</a>
             </li>
           </ul>
         </nav>
@@ -40,7 +39,7 @@
     </div>
   </header>
   <main class="main">
-    <section class="wrapper first__section">
+    <section class="wrapper first__section" id="first__section">
       <div class="main__head__wrapper">
         <h1 class="hidden__title">Блог</h1>
         <h2 class="main__head__title">Все статьи</h2>
@@ -56,8 +55,10 @@
       </div>
       <div class="main__body__wrapper">
         <article class="main__body__articles">
-          <img src="./image/travels.png" alt="travels" class="main__pic">
-          <h3 class="main__body__title">Путешествие в Берлин в августе</h3>
+          <a href="./index2.html">
+            <img src="./image/travels.png" alt="travels" class="main__pic">
+            <h3 class="main__body__title">Путешествие в Берлин в августе</h3>
+          </a>
           <p class="main__page">
             Летний месяц я провела в столице Германии<br> вместе с друзьями. И вот как это было!
           </p>
@@ -71,8 +72,10 @@
           </div>
         </article>
         <article class="main__body__articles">
-          <img src="./image/city.png" alt="city" class="main__pic">
-          <h3 class="main__body__title">Где выпить колдбрю в Москве</h3>
+          <a href="./index2.html">
+            <img src="./image/city.png" alt="city" class="main__pic">
+            <h3 class="main__body__title">Где выпить колдбрю в Москве</h3>
+          </a>
           <p class="main__page">
             Собрала для вас список любимых кофеен,<br> где подают лучший летний напиток.
           </p>
@@ -86,8 +89,10 @@
           </div>
         </article>
         <article class="main__body__articles">
-          <img src="./image/books.png" alt="books" class="main__pic main__pic__book">
-          <h3 class="main__body__title">Прочитано: книжные рекомендации</h3>
+          <a href="./index2.html">
+            <img src="./image/books.png" alt="books" class="main__pic main__pic__book">
+            <h3 class="main__body__title">Прочитано: книжные рекомендации</h3>
+          </a>
           <p class="main__page">
             Рассказываю о прочитанных за последнее<br> время книгах: фавориты и провалы.
           </p>
@@ -102,7 +107,9 @@
         </article>
         <article class="main__body__articles big__articles">
           <div class="absolute">
-            <h3 class="main__body__title big__title">Снимки на плёнку</h3>
+            <a href="./index2.html">
+              <h3 class="main__body__title big__title">Снимки на плёнку</h3>
+            </a>
             <p class="main__page big__page">
               Поделилась с вами весенними фотографиями,<br> и секретами удачных снимков.
             </p>
@@ -119,7 +126,9 @@
         </article>
         <article class="main__body__articles big__articles">
           <div class="absolute">
-            <h3 class="main__body__title big__title">Домашний чизкейк</h3>
+            <a href="./index2.html">
+              <h3 class="main__body__title big__title">Домашний чизкейк</h3>
+            </a>
             <p class="main__page big__page">
               Что может быть лучше чизкейка с сезонными<br>ягодами? Только домашний чизкейк!
             </p>
@@ -141,7 +150,7 @@
     </section>
 
 
-    <section class="wrapper second__section">
+    <section class="wrapper second__section" id="second__section">
       <div class="aboutme__head__wrapper">
         <h2 class="main__head__title center__title">Обо мне</h2>
       </div>
@@ -182,7 +191,7 @@
       </div>
     </section>
 
-    <section class="wrapper third__section">
+    <section class="wrapper third__section" id="third__section">
       <div class="portfolio__head__wrapper">
         <h2 class="main__head__title center__title">Портфолио</h2>
       </div>
@@ -234,7 +243,7 @@
 
     </section>
 
-    <section class="wrapper fourth__section">
+    <section class="wrapper fourth__section" id="fourth__section">
       <div class="writeme__head__wrapper">
         <h2 class="main__head__title center__title">Написать мне</h2>
       </div>

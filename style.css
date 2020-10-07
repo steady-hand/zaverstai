@@ -151,7 +151,9 @@ select {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+.main__image img {
+  border-radius: 10px;
+}
 .main__body__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -235,6 +237,7 @@ select {
   right: 0px;
   width: 10px;
   height: 10px;
+  border-radius: 10%;
   border-top: 2px solid black;
   border-right: 2px solid black;
   transform: rotate(45deg);
@@ -245,8 +248,13 @@ select {
   display: flex;
   flex-wrap: no-wrap;
 }
+.social img {
+  width: 50px;
+  height: 50px;
+}
 .social__link {
   margin-left: 32px;
+
 }
 .likes__number {
   margin-left: 15px;
@@ -544,4 +552,7 @@ opacity: 75%;
 }
 .hidden__title {
   display: none;
+}
+.first__section a {
+  text-decoration: none;
 }
