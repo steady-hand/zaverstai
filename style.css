@@ -446,6 +446,8 @@ line-height: 150%;
   border-radius: 10px;
   width: 407px;
   height: 65px;
+  margin-top: 12px;
+  margin-bottom: 20px;
 }
 .input::placeholder {
   padding-left: 20px;
@@ -464,6 +466,7 @@ line-height: 150%;
   border-radius: 10px;
   resize: none;
   width: 837px;
+  margin-top: 12px;
 }
 .big__input::placeholder {
   padding-left: 20px;
