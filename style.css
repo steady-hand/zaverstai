@@ -25,6 +25,8 @@ body {
   display: flex;
   padding-left: 100px;
   padding-top: 45px;
+  position: relative;
+  margin-bottom: 15px;
 }
 .comment__page {
   margin-left: 100px;
@@ -33,16 +35,12 @@ body {
   color: #2E2F22;
   margin-top: 5px;
 }
-.page-1 {
-  margin-bottom: 5px;
-}
-.page-2 {
-  margin-bottom: -25px;
-}
+
 .main__comment {
   background: #ECE1E1;
   border-radius: 10px;
-  height: 430px;
+  min-height: 390px;
+  padding-bottom: 30px;
 }
 .main__comment__form {
   padding-left: 80px;
@@ -58,17 +56,21 @@ body {
 .main__comment__wrapper {
   width: 795px;
 }
-.comment__image img {
+
+.comment-img {
   width: 50px;
   height: 50px;
   margin-right: 15px;
+  border-radius: 10px;
 }
-.comment__image h4 {
+.comment-title {
   font-family: "Open Sans";
   font-weight: bold;
   font-size: 16px; 
   color: #2E2F22;
-
+  position: absolute;
+  top: 40%;
+  padding-left: 60px;
 }
 .header {
   margin: 0;
@@ -175,7 +177,8 @@ select {
   padding-left: 82px;
 }
 .big__articles {
-  margin-top: 62px;
+  padding-top: 62px;
+  position: relative;
 }
 .main__body__title {
   font-family: "Spectral SC";
@@ -555,4 +558,12 @@ opacity: 75%;
 }
 .first__section a {
   text-decoration: none;
+}
+.added {
+  background-color: black;
+}
+.comment-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

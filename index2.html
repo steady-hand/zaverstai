@@ -5,9 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width-device-width, initial-scale=1.0">
   <title>Сайт Заверстаю</title>
-  <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&family=Spectral+SC:wght@700&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -121,50 +119,56 @@
     <section class="wrapper-2">
       <div class="main__comment__wrapper">
         <div class="main__comment">
-          <div class="comment__image">
-            <img src="./image/ivanpetrov.png" alt="avatar">
-            <h4>Иван Петров</h4>
-          </div>
-          <p class="comment__page page-1">
-            Отличная статья! Спасибо.
-          </p>
-
-          <div class="comment__image">
-            <img src="./image/ksenia.png" alt="avatar">
-            <h4>Ксения Ксения</h4>
-          </div>
-          <p class="comment__page page-2">
-            Отличный текст, добавила в закладки.
-          </p>
-
-          <div class="comment__image">
-            <img src="./image/ivanivanov.png" alt="avatar">
-            <h4>Иван Иванов</h4>
-          </div>
-          <p class="comment__page">
-            Основательный материал! Можешь посоветовать какие-то книги на эту тему?
-          </p>
+          <ul class="comment-list">
+            <li>
+              <div class="comment__image">
+                <img src="./image/ivanpetrov.png" alt="avatar" class="comment-img">
+                <h4 class="comment-title">Иван Петров</h4>
+              </div>
+              <p class="comment__page page-1">
+                Отличная статья! Спасибо.
+              </p>
+            </li>
+            <li>
+              <div class="comment__image">
+                <img src="./image/ksenia.png" alt="avatar" class="comment-img">
+                <h4 class="comment-title">Ксения Ксения</h4>
+              </div>
+              <p class="comment__page page-2">
+                Отличный текст, добавила в закладки.
+              </p>
+            </li>
+            <li>
+              <div class="comment__image">
+                <img src="./image/ivanivanov.png" alt="avatar" class="comment-img">
+                <h4 class="comment-title">Иван Иванов</h4>
+              </div>
+              <p class="comment__page">
+                Основательный материал! Можешь посоветовать какие-то книги на эту тему?
+              </p>
+            </li>
+          </ul>
         </div>
         <div class="main__comment__form">
           <h3>Оставить комментарий</h3>
           <form action="#" method="POST" class="form">
             <div class="main__form__wrap">
               <div class="input__wrap-2">
-                <label for="name-field">
-                  <h3 class="main__form__title">Ваше имя</h3>
+                <label for="name-field" class="main__form__title">
+                  Ваше имя
                 </label>
-                <input type="text" name="name" id="name-field" class="input-2" placeholder="Имя">
+                <input type="text" name="name" id="name-field" class="input-2 input-name" placeholder="Имя">
                 <label for="login-field">
                   <h3 class="main__form__title">Почта</h3>
                 </label><br>
-                <input type="text" name="login" id="login-field" class="input-2" placeholder="Почта">
+                <input type="text" name="login" id="login-field" class="input-2 input-login" placeholder="Почта">
               </div>
               <div class="input__wrap-2 last__input__wrap-2">
                 <label for="comment-field">
                   <h3 class="main__form__title">Сообщение</h3>
                 </label>
-                <textarea wrap="on" rows="13" name="comment" id="comment-field" class="big__input-2"
-                  placeholder="Написать комментарий...">
+                <textarea maxlength="200" minlength="10" rows="13" name="comment" id="comment-field"
+                  class="big__input-2" placeholder="Написать комментарий...">
                     </textarea>
               </div>
             </div>
@@ -196,6 +200,10 @@
       </div>
     </div>
   </footer>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto&family=Spectral+SC:wght@700&display=swap">
+  <script src="script.js"></script>
+  <script src="scriptcomment.js"></script>
 </body>
 
 </html>
