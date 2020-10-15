@@ -75,13 +75,13 @@ body {
 .header {
   margin: 0;
   height: 581px;
-  background: url(./image/header-bg.jpg) no-repeat center;
+  background: url(/image/header-bg.jpg) no-repeat center;
 
 }
 .header-2 {
   margin: 0;
   height: 581px;
-  background: url(./image/header2-bg.png) no-repeat center;
+  background: url(/image/header2-bg.jpg) no-repeat center;
 }
 .header__list {
   display: flex;
@@ -139,7 +139,7 @@ option {
   color: #2E2F22;
 }
 select {
-  background: url(./image/select.svg) no-repeat 90% 50% #D7D1C9;
+  background: url(/image/select.svg) no-repeat 90% 50% #D7D1C9;
   border-radius: 10px; 
   border: none;
   appearance: none;
@@ -221,7 +221,7 @@ select {
   border: none;
   background-color: white;
   cursor: pointer;
-  background-image: url(./image/like.svg);
+  background-image: url(/image/like.svg);
   width: 50px;
   height: 50px;
 }
@@ -428,7 +428,7 @@ line-height: 150%;
 
 
 .writeme__body__wrapper {
-  background: url(./image/form-bg.jpg) no-repeat center;
+  background: url(/image/form-bg.jpg) no-repeat center;
   margin: 0;
   height: 637px;
 }
