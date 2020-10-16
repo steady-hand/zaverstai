@@ -41,7 +41,8 @@
     <section class="wrapper first__section" id="first__section">
       <div class="main__head__wrapper">
         <h2 class="main__head__title">Все статьи</h2>
-        <select name="main select" class="select">
+        <label for="select" class="select-label">Выберите категорию статей</label>
+        <select name="main select" class="select" id="select">
           <option hidden>Выбрать тему</option>
           <option value="Travels">Путешествия</option>
           <option value="City">Город</option>
@@ -194,6 +195,7 @@
         <h2 class="main__head__title center__title">Портфолио</h2>
       </div>
       <div class="portfolio__body__wrapper">
+
         <article class="portfolio__body__articles">
           <div class="wrapper__portfolio__text">
             <h3 class="portfolio__body__title3">Блог HTML Academy</h3><br>
@@ -204,10 +206,9 @@
               запомнить информацию.
             </p>
           </div>
-          <img src="image/first-blog.jpg" alt="Blog HTML Academy" class="main__pic main__pic__portfolio">
         </article>
 
-        <article class="portfolio__body__articles">
+        <article class="post-2">
           <div class="wrapper__portfolio__text2">
             <h3 class="portfolio__body__title3__second">Журнал «LNK»</h3><br>
             <h4 class="portfolio__body__title4__second">«Зачем поцелуи нужны человеку?<br>
@@ -215,14 +216,13 @@
             <p class="portfolio__body__page__second">
               Поцелуи — повсеместная ежедневная<br>
               практика. Но зачем люди целуются?<br>
-              Какие смысли вкладывают в этот ритуал?<br>
+              Какие смыслы вкладывают в этот ритуал?<br>
               И где корни этой практики?
             </p>
           </div>
-          <img src="image/second-blog.jpg" alt="Magazine LNK" class="main__pic main__pic__portfolio">
         </article>
 
-        <article class="portfolio__body__articles">
+        <article class="post-3">
           <div class="wrapper__portfolio__text">
             <h3 class="portfolio__body__title3">Журнал «Т — Л»</h3><br>
             <h4 class="portfolio__body__title4">«Советы по эффективной<br>
@@ -232,7 +232,6 @@
               мне работать продуктивно из дома.
             </p>
           </div>
-          <img src="image/third-blog.jpg" alt="Magazine T — L" class="main__pic main__pic__portfolio">
         </article>
       </div>
       <div class="main__footer__wrapper">
@@ -252,14 +251,14 @@
               <label for="name-field" class="main__body__title">
                 Ваше имя<br>
               </label>
-              <input type="text" name="name" id="name-field" class="input" placeholder="Иван Иванов">
+              <input type="text" name="name" id="name-field" class="input" placeholder="Иван Иванов" required>
             </div>
 
             <div class="input__wrap">
               <label for="login-field" class="main__body__title">
                 Email<br>
               </label>
-              <input type="text" name="login" id="login-field" class="input" placeholder="google@gmail.com">
+              <input type="text" name="login" id="login-field" class="input" placeholder="google@gmail.com" required>
             </div>
           </div>
           <div class="input__wrap last__input__wrap">
@@ -267,7 +266,7 @@
               Сообщение
             </label>
             <textarea name="comment" id="comment-field" class="textarea" placeholder="Напишите здесь ваше сообщение."
-              maxlength="200" minlength="10" rows="11"></textarea>
+              maxlength="200" minlength="10" rows="11" required></textarea>
           </div>
 
           <div class="submit__wrap">
