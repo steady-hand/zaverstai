@@ -237,7 +237,7 @@ select {
   padding-right: 90px;
   margin-top: 37px;
 }
-.arrow:before {
+.arrow__link:before {
  position: absolute;
  content: "";
  background-color:  black;
@@ -449,14 +449,20 @@ line-height: 150%;
 
 
 .writeme__body__wrapper {
-  background: url(../image/form-bg.jpg) no-repeat center;
   margin: 0;
   height: 637px;
+
 }
 .form__wrap {
+  background: url(../image/form-bg.jpg) no-repeat center;
+  border-radius: 10px;
+  height: 637px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.form-div {
   width: 840px;
   margin: 0 auto;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -494,7 +500,7 @@ line-height: 150%;
   border-radius: 10px;
   resize: none;
   margin-top: 12px;
-  width: 837px;
+  width: 800px;
 }
 .submit {
   text-decoration: none;
